@@ -1,0 +1,32 @@
+exclude:
+  - node_modules
+  - script
+
+sass:
+  style: :compressed
+
+theme: jekyll-theme-primer
+
+github:
+  private: false
+  license:
+    name: MIT
+  source:
+    branch: "master"
+    path: "/"
+  repository_url: "https://github.com/pidofme/wiki"
+
+title: pidof.me
+description: pidofme's personal wiki
+
+author: pidofme
+
+permalink: /:title
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "page"
