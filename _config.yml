@@ -7,6 +7,7 @@ sass:
 
 theme: jekyll-theme-primer
 
+repository: pidofme/wiki
 github:
   private: false
   license:
@@ -15,7 +16,6 @@ github:
     branch: "master"
     path: "/"
   repository_url: "https://github.com/pidofme/wiki"
-  repository_nwo: "pidofme/wiki"
 
 title: pidof.me
 description: pidofme's personal wiki
