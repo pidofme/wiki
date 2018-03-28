@@ -18,6 +18,6 @@ Docker 支持如下几种容器重启策略：
 | `unless-stopped`           | 总是重启容器，除非容器在 Docker 守护进程启动前已经处于停止状态。 |
 
 
-# 参考链接
+## 参考链接
 
 * [Docker run reference](https://docs.docker.com/engine/reference/run/#restart-policies---restart)
