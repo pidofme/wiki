@@ -1,9 +1,6 @@
 <ul>
 {% assign sorted_pages = site.pages | sort:"date" | reverse %}
 {% for page in sorted_pages limit:5 %}
-    <li>
-        <a href="{{ page.url }}">{{ page.title }}</a>
-        {% if page.date %} <span class="f6 text-gray">{{ page.date | date: "%b %-d, %Y" }}</span> {% endif %}
-    </li>
+    {% include page-link.html page=page %}
 {% endfor %}
 </ul>
