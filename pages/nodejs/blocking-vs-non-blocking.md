@@ -4,7 +4,9 @@ tags: node.js
 date: 2018-04-14
 ---
 
-# 阻塞与非阻塞概述
+# [译] 阻塞与非阻塞概述
+
+> 原文：[Overview of Blocking vs Non-Blocking](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/)
 
 本文讲述 Node.js 中**阻塞**与**非阻塞**调用之间的区别。文中会涉及事件循环和 libuv 的话题，但不需要事先了解这些主题。文中假设读者对 JavaScript 和 Node.js 的回调模式具有基本的了解。
 
